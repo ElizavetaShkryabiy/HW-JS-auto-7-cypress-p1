@@ -1,0 +1,17 @@
+{
+  "name": "hw7cypressp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "start": "cypress open",
+    "firefox": "cypress run --browser firefox --headless",
+    "edge": "cypress open --browser edge",
+    "electron": "cypress run --browser electron --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.4.0"
+  }
+}
